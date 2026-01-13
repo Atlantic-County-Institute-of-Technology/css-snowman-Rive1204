@@ -1,73 +1,124 @@
-body {
-    background-color:lightblue;
+
+  body {
+    background: #87ceeb; /* sky blue */
     display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.container {
-    height: 250px;
-    width:250px;
-    border: 2px dashed black;
-    border-radius: 50px;
-    display:flex;
-    align-items: center;
     justify-content: center;
-}
-    
-.circle {
-    top: 140px;
-    height: 50px;
-    width: 50px;
-    border: 50px solid white;
-    border-radius: 100px;
-    background-color: white;      
+    align-items: center;
+    height: 100vh;
+  }
+  .snowman {
     position: relative;
-}
-.container2 {
-    height: 250px;
-    width:250px;
-    border: 2px dashed black;
-    border-radius: 50px;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
-    
-.circle2 {
-    top: 1px;
-    height: 50px;
-    width: 60px;
-    border: 60px solid white;
-    border-radius: 100px;
-    background-color: white;      
+   width: ;
+  top:450px;
+  .circle {
+    background: white;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+  }
+  .bottom {
+    width: 200px;
+    height: 200px;
+  }
+  .middle {
+    width: 150px;
+    height: 150px;
     position: relative;
-}
-body{
-     display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-}
- 
-
-.container3{
-    height: 250px;
-    width:250px;
-    border: 2px dashed black;
-    border-radius: 50px;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
-    
-.circle3 {
-    top: 90px;
-    height: 90px;
-    width: 90px;
-    border: 50px solid white;
-    border-radius: 100px;
-    background-color: white;     
+    top: -300px;
+  }
+  .head {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -550px;
+  }
+  /* Eyes */
+  .eye {
+    width: 10px;
+    height: 10px;
+    background: red;
+    border-radius: 50%;
     position: absolute;
-    right: 1px;
+    top: 30px;
+  }
+  .eye.left {
+    left: 25px;
+  }
+  .eye.right {
+    right: 25px;
+  }
+  /* Nose */
+  .nose {
+    width: ;
+    height: ;
+    border-left: 12px solid orange;
+    border-top: 20px solid transparent;
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    transform: rotate(290deg);
+  }
+  /* Buttons */
+  .button {
+    width: 15px;
+    height: 15px;
+background: 8px red;
+    border-radius: 50%;
+    margin: 8px auto;
+  }
+  /* Arms */
+  .arm {
+    position: absolute;
+    width: 60px;
+    height: 6px;
+    background: brown;
+    top: 20px;
+  }
+  .arm.left {
+    left: -47px;
+    transform: rotate(30deg);
+  }
+  .arm.right {
+    right: -47px;
+    transform: rotate(-30deg);
+  }
+.hat {
+    background-color: red;
+    position: relative;
+    height: 75px;
+    width: 80px;
+    margin: auto;
+    top:-70px;
+    /* z-index: 5px;  */
+}
+
+.hat-brim{
+    width: 110px; 
+    height: 10px; 
+    background: black;
+    border-radius: 5%;
+    position: relative;
+    bottom: 70px; auto;
+    left: -4px; ;
+}
+.hat-top{
+    width: ;
+    height: 10px ;
+    background: black ;
+    position: relative;
+    bottom:  ;
+    left: -5PX ;
+}
+ .snowman{
+position: relative;
+width: 150px ;
+box-shadow:10px 10px 15px rgba(0,0,0);
+
+.circle{
+  background-color: white;
+  border-radius: 50p%;
+  border: 2px solid;
+  margin: auto #ccc;
+  box-shadow:4px 4px 6px rgba(0,0,0)
 }
